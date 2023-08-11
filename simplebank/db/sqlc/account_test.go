@@ -1,13 +1,10 @@
 package db
 
-
 import (
 	"context"
-	"testing"
-	"/simplebank/db/util"
-
-
+	"github.com/hayden955/simpleBank/simplebank/util/random.go"
 	"github.com/stretchr/testify/require"
+	"testing"
 )
 
 func TestCreateAccount(t *testing.T) {
